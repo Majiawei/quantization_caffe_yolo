@@ -1,0 +1,1 @@
+sh quantization_autoyolocarface.sh 2>&1 | tee -a logresult.txt

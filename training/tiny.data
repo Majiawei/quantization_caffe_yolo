@@ -1,0 +1,5 @@
+classes= 1
+train  = /home/user/Work/mjw/yolo-master/CarplateInCar/carplate_train.txt
+valid  =/home/user/Work/mjw/yolo-master/CarplateInCar/carplate_test.txt
+names = /home/user/Work/mjw/yolo-master/darknet/CarplateInCar/tiny.names
+backup = /home/user/Work/mjw/yolo-master/darknet/CarplateInCar/relu_weights
