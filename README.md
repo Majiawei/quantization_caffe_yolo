@@ -38,6 +38,20 @@ anchor参数
 4、执行量化
 修改quantization_autoyolocarface.sh
 执行quantization_runonce.sh
+===========================================================
+<quantization_python>
+转换:
+1 修改darknet2caffe.py中caffe python路径
+2 执行python2 darknet2caffe.py  yolov3-tiny-ZHhands.cfg yolov3-tiny-ZHhands_best.weights yolov3_tiny.prototxt yolov3_tiny.caffemodel
+测试:
+1 修改eval_carplate.py相关路径
+2 执行python2 eval_carplate.py
+量化:
+1 修改eval_carplate.py为评估代码
+2 量化方式同上(替换评估脚本)
+
+
+
 
 
 
